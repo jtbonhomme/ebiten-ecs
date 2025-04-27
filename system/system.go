@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/jtbonhomme/ebitenecs/component"
-	"github.com/jtbonhomme/ebitenecs/entity"
+	"github.com/jtbonhomme/ebiten-ecs/component"
+	"github.com/jtbonhomme/ebiten-ecs/entity"
 )
 
 var (

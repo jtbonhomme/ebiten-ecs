@@ -10,10 +10,10 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
-	"github.com/jtbonhomme/ebitenecs"
-	"github.com/jtbonhomme/ebitenecs/component"
-	"github.com/jtbonhomme/ebitenecs/entity"
-	"github.com/jtbonhomme/ebitenecs/system"
+	ecs "github.com/jtbonhomme/ebiten-ecs"
+	"github.com/jtbonhomme/ebiten-ecs/component"
+	"github.com/jtbonhomme/ebiten-ecs/entity"
+	"github.com/jtbonhomme/ebiten-ecs/system"
 )
 
 const (
@@ -28,7 +28,7 @@ type CounterComponent struct {
 }
 
 // CounterSystem is a simple system that updates the CounterComponent.
-// It implements the Updater interface from the ebitenecs package, and the Drawer interface.
+// It implements the Updater interface from the ecs package, and the Drawer interface.
 // The Update method decrements the Value field of the CounterComponent by 1.
 // The system is identified by a unique ID, which is assigned using the AssignID function.
 // The ID method returns the unique ID of the system.
@@ -67,7 +67,7 @@ func (cs *CounterSystem) Draw(
 
 // Game is the main structure for the game.
 type Game struct {
-	world *ebitenecs.ECS
+	world *ecs.ECS
 }
 
 // Update is called every frame to update the game state.
@@ -124,7 +124,7 @@ func main() {
 
 	// create a new game with ECS world
 	g := &Game{
-		world: ebitenecs.New(),
+		world: ecs.New(),
 	}
 
 	// create a new entity countDown wth a CounterComponent

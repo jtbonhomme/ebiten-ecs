@@ -63,4 +63,4 @@ Then create a system and register it with the ECS:
 		countDown,
 	)
 */
-package ebitenecs
+package ecs

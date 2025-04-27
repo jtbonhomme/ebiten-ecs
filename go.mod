@@ -1,4 +1,4 @@
-module github.com/jtbonhomme/ebitenecs
+module github.com/jtbonhomme/ebiten-ecs
 
 go 1.22.0
 

@@ -1,7 +1,9 @@
 # ebiten-ecs
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/jtbonhomme/ebiten-ecs)](https://pkg.go.dev/github.com/jtbonhomme/ebiten-ecs)
-
+[![issues](https://img.shields.io/github/issues/jtbonhomme/ebiten-ecs)](https://github.com/jtbonhomme/ebiten-ecs/issues)
+![GitHub Release](https://img.shields.io/github/v/release/jtbonhomme/ebiten-ecs)
+[![license](https://img.shields.io/github/license/jtbonhomme/ebiten-ecs)](https://github.com/jtbonhomme/ebiten-ecs/blob/main/LICENSE)
 `ebiten-ecs` is a Go library that provides an Entity-Component-System (ECS) framework tailored for use with the [Ebiten](https://ebiten.org/) game library. It simplifies the development of complex 2D games by organizing game logic into entities, components, and systems.
 
 ## Features
@@ -22,7 +24,7 @@ go get github.com/jtbonhomme/ebiten-ecs
 
 ## Running the Example Program
 
-An example program demonstrating the usage of `ebiten-glow` is provided in the `example` directory. To run the example:
+An example program demonstrating the usage of `ebiten-ecs` is provided in the `example` directory. To run the example:
 
 1. Navigate to the `example` directory:
    ```bash

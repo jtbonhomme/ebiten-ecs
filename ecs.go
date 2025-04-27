@@ -1,4 +1,4 @@
-package ebitenecs
+package ecs
 
 import (
 	"fmt"
@@ -7,9 +7,9 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/jtbonhomme/ebitenecs/component"
-	"github.com/jtbonhomme/ebitenecs/entity"
-	"github.com/jtbonhomme/ebitenecs/system"
+	"github.com/jtbonhomme/ebiten-ecs/component"
+	"github.com/jtbonhomme/ebiten-ecs/entity"
+	"github.com/jtbonhomme/ebiten-ecs/system"
 )
 
 const (
